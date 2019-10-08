@@ -24,6 +24,7 @@ html {
 .polaroid:hover {
   box-shadow: 1px 5px 10px black;
   transform: rotate(0);
+  z-index: 1000;
 }
 
 .polaroid > figcaption {
@@ -46,6 +47,7 @@ html {
   transform: rotate(5deg);
   top: 150px;
   left: 300px;
+  z-index: 100;
 }
 
 .polaroid:nth-child(3) {
