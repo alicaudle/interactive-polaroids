@@ -37,14 +37,20 @@ html {
 .polaroid:nth-child(1) {
   position: absolute;
   transform: rotate(-10deg);
+  top: 100px;
+  left: 200px;
 }
 
 .polaroid:nth-child(2) {
   position: absolute;
   transform: rotate(5deg);
+  top: 150px;
+  left: 300px;
 }
 
 .polaroid:nth-child(3) {
   position: absolute;
   transform: rotate(20deg);
+  top: 100px;
+  left: 400px;
 }
